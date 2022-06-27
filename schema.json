@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "title": "mohaymen",
+  "description": "mohaymen schema",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "lead": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "datetime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "content",
+    "datetime"
+  ]
+}
